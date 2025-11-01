@@ -28,5 +28,10 @@
     "src/**/*.vue",
     "auto-imports.d.ts",
     "components.d.ts"
-  ]
+  ],
+  "paths": {
+    "#build/b24ui": [
+      "./node_modules/.b24ui-nuxt/b24ui"
+    ]
+  }
 }

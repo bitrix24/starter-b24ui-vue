@@ -18,5 +18,10 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["vite.config.ts"]
+  "include": ["vite.config.ts"],
+  "paths": {
+    "#build/b24ui": [
+      "./node_modules/.b24ui-nuxt/b24ui"
+    ]
+  }
 }
