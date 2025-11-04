@@ -11,8 +11,8 @@
     "typecheck": "vue-tsc -p ./tsconfig.app.json"
   },
   "dependencies": {
-    "@bitrix24/b24icons-vue": "^2.0.4",
-    "@bitrix24/b24ui-nuxt": "^2.0.8",
+    "@bitrix24/b24icons-vue": "^2.0.5",
+    "@bitrix24/b24ui-nuxt": "^2.0.9",
     "@tailwindcss/vite": "^4.1.16",
     "tailwindcss": "^4.1.16",
     "vue": "^3.5.22",
@@ -20,12 +20,12 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.1",
-    "eslint": "^9.39.0",
+    "eslint": "^9.39.1",
     "eslint-plugin-vue": "^10.5.1",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.46.2",
+    "typescript-eslint": "^8.46.3",
     "vite": "^7.1.12",
-    "vue-tsc": "^3.1.2"
+    "vue-tsc": "^3.1.3"
   },
   "packageManager": "pnpm@10.20.0"
 }
