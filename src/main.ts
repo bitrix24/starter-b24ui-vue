@@ -8,9 +8,11 @@ import App from './App.vue'
 
 const app = createApp(App)
 
+const basePath = import.meta.env.BASE_URL || '/'
+
 app.use(createRouter({
   routes: [{ path: '/', component: () => import('./pages/index.vue') }],
-  history: createWebHistory()
+  history: createWebHistory(basePath)
 }))
 
 app.use(b24UiPlugin)
