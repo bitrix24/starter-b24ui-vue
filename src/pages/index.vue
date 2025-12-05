@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import type { PageCardProps } from '@bitrix24/b24ui-nuxt'
+import { ref } from 'vue'
 import PlayLIcon from '@bitrix24/b24icons-vue/outline/PlayLIcon'
 import GitHubIcon from '@bitrix24/b24icons-vue/social/GitHubIcon'
 import RocketIcon from '@bitrix24/b24icons-vue/main/RocketIcon'
@@ -8,6 +10,42 @@ import AppsIcon from '@bitrix24/b24icons-vue/solid/AppsIcon'
 import CodeIcon from '@bitrix24/b24icons-vue/common-service/CodeIcon'
 import ShieldCheckedIcon from '@bitrix24/b24icons-vue/outline/ShieldCheckedIcon'
 import ArrowRightLIcon from '@bitrix24/b24icons-vue/outline/ArrowRightLIcon'
+
+const cards = ref<PageCardProps[]>([
+  {
+    icon: RocketIcon,
+    title: 'Production-ready from day one',
+    description: 'Pre-configured with TypeScript, ESLint, Tailwind CSS, and Vite. Focus on building features, not setting up tooling.'
+  },
+  {
+    icon: PaletteIcon,
+    title: 'Beautiful by default',
+    description: 'Powered by Bitrix24 UI\'s design system with automatic dark mode, consistent spacing, and polished components that look great out of the box.',
+    variant: 'tinted-accent-1'
+  },
+  {
+    icon: TaskIcon,
+    title: 'Lightning fast',
+    description: 'Optimized with Vite\'s blazing fast HMR, automatic code splitting, and tree-shaking. Your users will love the speed.'
+  },
+  {
+    icon: AppsIcon,
+    title: '100+ components included',
+    description: 'Access Bitrix24 UI\'s comprehensive component library. From forms to navigation, everything is accessible, responsive, and customizable.',
+    variant: 'outline-success'
+  },
+  {
+    icon: CodeIcon,
+    title: 'Developer experience first',
+    description: 'Auto-imports, hot module replacement, TypeScript support, and Vue DevTools integration. Write less boilerplate and ship more features.'
+  },
+  {
+    icon: ShieldCheckedIcon,
+    title: 'Built for scale',
+    description: 'Modern Vue 3 architecture with Composition API, proper error handling, and security best practices built-in.',
+    variant: 'outline-copilot'
+  }
+])
 </script>
 
 <template>
@@ -53,41 +91,7 @@ import ArrowRightLIcon from '@bitrix24/b24icons-vue/outline/ArrowRightLIcon'
 
     <B24PageGrid class="mt-4">
       <B24PageCard
-        v-for="(card, index) in [
-          {
-            icon: RocketIcon,
-            title: 'Production-ready from day one',
-            description: 'Pre-configured with TypeScript, ESLint, Tailwind CSS, and Vite. Focus on building features, not setting up tooling.'
-          },
-          {
-            icon: PaletteIcon,
-            title: 'Beautiful by default',
-            description: 'Powered by Bitrix24 UI\'s design system with automatic dark mode, consistent spacing, and polished components that look great out of the box.',
-            variant: 'tinted-accent-1'
-          },
-          {
-            icon: TaskIcon,
-            title: 'Lightning fast',
-            description: 'Optimized with Vite\'s blazing fast HMR, automatic code splitting, and tree-shaking. Your users will love the speed.'
-          },
-          {
-            icon: AppsIcon,
-            title: '100+ components included',
-            description: 'Access Bitrix24 UI\'s comprehensive component library. From forms to navigation, everything is accessible, responsive, and customizable.',
-            variant: 'outline-success'
-          },
-          {
-            icon: CodeIcon,
-            title: 'Developer experience first',
-            description: 'Auto-imports, hot module replacement, TypeScript support, and Vue DevTools integration. Write less boilerplate and ship more features.'
-          },
-          {
-            icon: ShieldCheckedIcon,
-            title: 'Built for scale',
-            description: 'Modern Vue 3 architecture with Composition API, proper error handling, and security best practices built-in.',
-            variant: 'outline-copilot'
-          }
-        ]"
+        v-for="(card, index) in cards"
         :key="index"
         v-bind="card"
       />
