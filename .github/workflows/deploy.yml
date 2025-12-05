@@ -43,7 +43,9 @@ jobs:
         run: pnpm run typecheck
 
       - name: Build
-        run: pnpm run build -- --base=/starter-b24ui-vue/
+        env:
+          BASE_PATH: '/starter-b24ui-vue/'
+        run: pnpm exec vite build --base=${{ env.BASE_PATH }}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
