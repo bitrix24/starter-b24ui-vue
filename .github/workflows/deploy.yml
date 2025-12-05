@@ -16,8 +16,6 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      VITE_BASE_PATH: '/starter-b24ui-vue/'
 
     steps:
       - name: Checkout
@@ -45,7 +43,7 @@ jobs:
         run: pnpm run typecheck
 
       - name: Build
-        run: pnpm run build
+        run: pnpm run build -- --base=/starter-b24ui-vue/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
