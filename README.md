@@ -4,6 +4,7 @@
 
 Use this template to get started with [Bitrix24 UI](https://bitrix24.github.io/b24ui/) quickly.
 
+- [Live demo](https://bitrix24.github.io/starter-b24ui-vue/)
 - [@bitrix24/b24ui](https://bitrix24.github.io/b24ui/docs/getting-started/installation/vue/)
 - [@bitrix24/b24icons](https://bitrix24.github.io/b24icons/)
 - [@bitrix24/b24jssdk](https://bitrix24.github.io/b24jssdk/)

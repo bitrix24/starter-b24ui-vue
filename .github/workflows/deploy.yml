@@ -17,7 +17,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      SOME_ENV: some_value
+      VITE_BASE_PATH: '/starter-b24ui-vue/'
 
     steps:
       - name: Checkout

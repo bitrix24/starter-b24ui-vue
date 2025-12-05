@@ -4,7 +4,7 @@
     :items="[
       {
         label: 'Starter',
-        to: '/',
+        to: 'https://bitrix24.github.io/starter-b24ui-vue/',
         checked: true,
         type: 'checkbox'
       },
