@@ -109,7 +109,7 @@ const cards = ref<PageCardProps[]>([
     }"
   >
     <template #footer>
-      <div class="flex flex-wrap items-start sm:items-center gap-4 mt-2">
+      <div class="flex flex-wrap items-center gap-4 mt-2">
         <B24Button
           label="Start building"
           to="https://bitrix24.github.io/b24ui/docs/getting-started/installation/vue/"
