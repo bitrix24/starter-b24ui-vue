@@ -55,9 +55,13 @@ const tgLink = computed(() => {
 
       <B24Footer>
         <template #left>
-        <ProseP small accent="less" class="mb-0">
-          Built with Bitrix24 UI • &copy; {{ new Date().getFullYear() }}
-        </ProseP>
+          <ProseP
+            small
+            accent="less"
+            class="mb-0"
+          >
+            Built with Bitrix24 UI • &copy; {{ new Date().getFullYear() }}
+          </ProseP>
         </template>
       </B24Footer>
     </B24App>
