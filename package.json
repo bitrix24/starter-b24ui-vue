@@ -10,11 +10,11 @@
     "typecheck": "vue-tsc -p ./tsconfig.app.json"
   },
   "dependencies": {
-    "@bitrix24/b24ui-nuxt": "^2.4.0",
+    "@bitrix24/b24ui-nuxt": "^2.4.1",
     "@bitrix24/b24icons-vue": "^2.0.7",
-    "tailwindcss": "^4.1.18",
+    "tailwindcss": "^4.2.1",
     "vue": "^3.5.29",
-    "vue-router": "^5.0.2"
+    "vue-router": "^5.0.3"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.4",
@@ -25,8 +25,5 @@
     "vite": "^7.3.1",
     "vue-tsc": "^3.2.5"
   },
-  "resolutions": {
-    "vue-router": "5.0.2"
-  },
-  "packageManager": "pnpm@10.29.3"
+  "packageManager": "pnpm@10.30.3"
 }

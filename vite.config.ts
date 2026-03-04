@@ -10,6 +10,11 @@ export default defineConfig({
       dts: 'src/route-map.d.ts'
     }),
     vue(),
-    bitrix24UIPluginVite ({})
+    bitrix24UIPluginVite ({
+      colorMode: true,
+      colorModeInitialValue: 'light',
+      colorModeTypeLight: 'light',
+      colorModeStorageKey: 'bitrix24-starter-b24ui-vue'
+    })
   ]
 })
