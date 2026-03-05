@@ -5,14 +5,12 @@
       {
         label: 'Starter',
         to: 'https://bitrix24.github.io/starter-b24ui-vue/',
-        checked: false,
+        checked: true,
         type: 'checkbox'
       },
       {
         label: 'Dashboard',
         to: 'https://bitrix24.github.io/templates-dashboard-vue/',
-        checked: true,
-        slot: 'dashboard'
       },
       {
         type: 'separator'
