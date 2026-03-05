@@ -5,13 +5,13 @@
       {
         label: 'Starter',
         to: 'https://bitrix24.github.io/starter-b24ui-vue/',
-        checked: true,
+        checked: false,
         type: 'checkbox'
       },
       {
         label: 'Dashboard',
-        to: 'https://bitrix24.github.io/b24ui/docs/components/sidebar-layout/',
-        disabled: true,
+        to: 'https://bitrix24.github.io/templates-dashboard-vue/',
+        checked: true,
         slot: 'dashboard'
       },
       {
@@ -41,11 +41,5 @@
       use-dropdown
       class="truncate"
     />
-
-    <template #dashboard-trailing>
-      <B24Badge size="xs">
-        Soon
-      </B24Badge>
-    </template>
   </B24DropdownMenu>
 </template>
