@@ -8,8 +8,8 @@ const tgLink = computed(() => {
   return (
     typeof window !== 'undefined' && window.navigator?.language.includes('ru')
   )
-      ? 'https://t.me/bitrix24apps'
-      : 'https://t.me/b24_dev'
+    ? 'https://t.me/bitrix24apps'
+    : 'https://t.me/b24_dev'
 })
 </script>
 
