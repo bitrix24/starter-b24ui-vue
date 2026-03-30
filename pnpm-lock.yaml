@@ -12,8 +12,8 @@ importers:
         specifier: ^2.0.7
         version: 2.0.7(vue@3.5.30(typescript@6.0.2))
       '@bitrix24/b24ui-nuxt':
-        specifier: ^2.5.2
-        version: 2.5.2(@tiptap/extensions@3.20.0(@tiptap/core@3.20.0(@tiptap/pm@3.20.0))(@tiptap/pm@3.20.0))(@tiptap/y-tiptap@3.0.2(prosemirror-model@1.25.4)(prosemirror-state@1.4.4)(prosemirror-view@1.41.6)(y-protocols@1.0.7(yjs@13.6.29))(yjs@13.6.29))(embla-carousel@8.6.0)(tailwindcss@4.2.2)(typescript@6.0.2)(vite@8.0.2(esbuild@0.27.3)(jiti@2.6.1)(yaml@2.8.2))(vue-router@5.0.4(@vue/compiler-sfc@3.5.30)(vue@3.5.30(typescript@6.0.2)))(vue@3.5.30(typescript@6.0.2))(yjs@13.6.29)
+        specifier: ^2.5.3
+        version: 2.5.3(@tiptap/extensions@3.20.0(@tiptap/core@3.20.0(@tiptap/pm@3.20.0))(@tiptap/pm@3.20.0))(@tiptap/y-tiptap@3.0.2(prosemirror-model@1.25.4)(prosemirror-state@1.4.4)(prosemirror-view@1.41.6)(y-protocols@1.0.7(yjs@13.6.29))(yjs@13.6.29))(embla-carousel@8.6.0)(tailwindcss@4.2.2)(typescript@6.0.2)(vite@8.0.2(esbuild@0.27.3)(jiti@2.6.1)(yaml@2.8.2))(vue-router@5.0.4(@vue/compiler-sfc@3.5.30)(vue@3.5.30(typescript@6.0.2)))(vue@3.5.30(typescript@6.0.2))(yjs@13.6.29)
       tailwindcss:
         specifier: ^4.2.2
         version: 4.2.2
@@ -81,8 +81,8 @@ packages:
     peerDependencies:
       vue: ^3.5.24
 
-  '@bitrix24/b24ui-nuxt@2.5.2':
-    resolution: {integrity: sha512-gi3c3xHzZz8GEz1DYk42UhR6/XNforlzYiqihcPnUkP54pvjbfPSelsOIIFrfIjRShFKaEcO9ZV0rC3IWLp74A==}
+  '@bitrix24/b24ui-nuxt@2.5.3':
+    resolution: {integrity: sha512-0HzI0WxueLjWxNRuZM88/kPZzvrTbC1ey/FFrYSmd19TqDV6Bi2jVA5LiWCuqomdT7B6u9fBMq2floUpkSRYSA==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -2142,7 +2142,7 @@ snapshots:
     dependencies:
       vue: 3.5.30(typescript@6.0.2)
 
-  '@bitrix24/b24ui-nuxt@2.5.2(@tiptap/extensions@3.20.0(@tiptap/core@3.20.0(@tiptap/pm@3.20.0))(@tiptap/pm@3.20.0))(@tiptap/y-tiptap@3.0.2(prosemirror-model@1.25.4)(prosemirror-state@1.4.4)(prosemirror-view@1.41.6)(y-protocols@1.0.7(yjs@13.6.29))(yjs@13.6.29))(embla-carousel@8.6.0)(tailwindcss@4.2.2)(typescript@6.0.2)(vite@8.0.2(esbuild@0.27.3)(jiti@2.6.1)(yaml@2.8.2))(vue-router@5.0.4(@vue/compiler-sfc@3.5.30)(vue@3.5.30(typescript@6.0.2)))(vue@3.5.30(typescript@6.0.2))(yjs@13.6.29)':
+  '@bitrix24/b24ui-nuxt@2.5.3(@tiptap/extensions@3.20.0(@tiptap/core@3.20.0(@tiptap/pm@3.20.0))(@tiptap/pm@3.20.0))(@tiptap/y-tiptap@3.0.2(prosemirror-model@1.25.4)(prosemirror-state@1.4.4)(prosemirror-view@1.41.6)(y-protocols@1.0.7(yjs@13.6.29))(yjs@13.6.29))(embla-carousel@8.6.0)(tailwindcss@4.2.2)(typescript@6.0.2)(vite@8.0.2(esbuild@0.27.3)(jiti@2.6.1)(yaml@2.8.2))(vue-router@5.0.4(@vue/compiler-sfc@3.5.30)(vue@3.5.30(typescript@6.0.2)))(vue@3.5.30(typescript@6.0.2))(yjs@13.6.29)':
     dependencies:
       '@bitrix24/b24icons-nuxt': 2.0.7(vue@3.5.30(typescript@6.0.2))
       '@bitrix24/b24icons-vue': 2.0.7(vue@3.5.30(typescript@6.0.2))
