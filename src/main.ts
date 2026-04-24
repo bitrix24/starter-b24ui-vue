@@ -3,11 +3,14 @@ import './assets/css/main.css'
 import { createApp } from 'vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import { routes, handleHotUpdate } from 'vue-router/auto-routes'
+import { createHead } from '@unhead/vue/client'
 import b24UiPlugin from '@bitrix24/b24ui-nuxt/vue-plugin'
 
 import App from './App.vue'
 
 const app = createApp(App)
+
+const head = createHead()
 
 const basePath = import.meta.env.BASE_URL || '/'
 const router = createRouter({
@@ -15,6 +18,7 @@ const router = createRouter({
   history: createWebHistory(basePath)
 })
 
+app.use(head)
 app.use(router)
 app.use(b24UiPlugin)
 
