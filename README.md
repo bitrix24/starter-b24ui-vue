@@ -10,11 +10,20 @@ Use this template to get started with [Bitrix24 UI](https://bitrix24.github.io/b
 - [@bitrix24/b24jssdk](https://bitrix24.github.io/b24jssdk/)
 
 > The starter template for Nuxt is on https://github.com/bitrix24/starter-b24ui.
+>
+> This is a Vue (non-Nuxt) project. It uses `@bitrix24/b24ui-nuxt`, which ships
+> both the Vite plugin and the Vue runtime for Bitrix24 UI — the package name
+> keeps `-nuxt` for historical reasons, but it works in a plain Vue + Vite app.
+
+## Prerequisites
+
+- Node.js >= 22
+- pnpm >= 10.33.0 (the project pins `pnpm@10.33.0` via `packageManager`)
 
 ## Quick Start
 
 ```bash [Terminal]
-git clone https://github.com/bitrix24/starter-b24ui.git <project-name>
+git clone https://github.com/bitrix24/starter-b24ui-vue.git <project-name>
 cd <project-name>
 ```
 
@@ -46,4 +55,24 @@ Locally preview production build:
 
 ```bash
 pnpm preview
+```
+
+## Quality Checks
+
+Lint the source and config files:
+
+```bash
+pnpm lint
+```
+
+Type-check the project:
+
+```bash
+pnpm typecheck
+```
+
+Run the unit tests:
+
+```bash
+pnpm test
 ```
